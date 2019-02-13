@@ -20,6 +20,25 @@
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">./app</directory>
+            <exclude>
+                <file>app/Console/Commands/SetupDeploymentCommand.php</file>
+                <file>app/Console/Kernel.php</file>
+                <file>app/Http/Kernel.php</file>
+                <file>app/Providers/AppServiceProvider.php</file>
+                <file>app/Providers/AuthServiceProvider.php</file>
+                <file>app/Providers/EventServiceProvider.php</file>
+                <file>app/Providers/BroadcastServiceProvider.php</file>
+                <file>app/Providers/RouteServiceProvider.php</file>
+                <file>app/Http/Controllers/Controller.php</file>
+                <file>app/Exceptions/Handler.php</file>
+                <file>app/Http/Middleware/Authenticate.php</file>
+                <file>app/Http/Middleware/EncryptCookies.php</file>
+                <file>app/Http/Middleware/RedirectIfAuthenticated.php</file>
+                <file>app/Http/Middleware/TrimStrings.php</file>
+                <file>app/Http/Middleware/TrustProxies.php</file>
+                <file>app/Http/Middleware/VerifyCsrfToken.php</file>
+                <file>App\Http\Controllers\Auth\ForgotPasswordController</file>
+            </exclude>
         </whitelist>
     </filter>
     <php>
@@ -29,5 +48,7 @@
         <env name="MAIL_DRIVER" value="array"/>
         <env name="QUEUE_CONNECTION" value="sync"/>
         <env name="SESSION_DRIVER" value="array"/>
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="DB_DATABASE" value=":memory:"/>
     </php>
 </phpunit>

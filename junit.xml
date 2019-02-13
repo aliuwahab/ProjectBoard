@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="9" assertions="18" errors="0" failures="0" skipped="0" time="1.028980">
+    <testsuite name="Unit" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.556030">
+      <testsuite name="Tests\Unit\ProjectTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Unit/ProjectTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.498042">
+        <testcase name="it_has_a_path" class="Tests\Unit\ProjectTest" classname="Tests.Unit.ProjectTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Unit/ProjectTest.php" line="16" assertions="1" time="0.498042"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\UserTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Unit/UserTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.057988">
+        <testcase name="a_user_has_projects" class="Tests\Unit\UserTest" classname="Tests.Unit.UserTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Unit/UserTest.php" line="16" assertions="1" time="0.057988"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="7" assertions="16" errors="0" failures="0" skipped="0" time="0.472951">
+      <testsuite name="Tests\Feature\ProjectsTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Feature/ProjectsTest.php" tests="7" assertions="16" errors="0" failures="0" skipped="0" time="0.472951">
+        <testcase name="guests_cannot_create_project" class="Tests\Feature\ProjectsTest" classname="Tests.Feature.ProjectsTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Feature/ProjectsTest.php" line="25" assertions="2" time="0.122714"/>
+        <testcase name="guests_cannot_view_projects" class="Tests\Feature\ProjectsTest" classname="Tests.Feature.ProjectsTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Feature/ProjectsTest.php" line="34" assertions="2" time="0.049699"/>
+        <testcase name="guests_cannot_view_a_single_project" class="Tests\Feature\ProjectsTest" classname="Tests.Feature.ProjectsTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Feature/ProjectsTest.php" line="42" assertions="2" time="0.049557"/>
+        <testcase name="a_user_can_create_a_project" class="Tests\Feature\ProjectsTest" classname="Tests.Feature.ProjectsTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Feature/ProjectsTest.php" line="52" assertions="4" time="0.091868"/>
+        <testcase name="a_user_can_view_a_project" class="Tests\Feature\ProjectsTest" classname="Tests.Feature.ProjectsTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Feature/ProjectsTest.php" line="71" assertions="2" time="0.054128"/>
+        <testcase name="a_project_requires_a_title" class="Tests\Feature\ProjectsTest" classname="Tests.Feature.ProjectsTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Feature/ProjectsTest.php" line="86" assertions="2" time="0.053675"/>
+        <testcase name="a_project_requires_a_description" class="Tests\Feature\ProjectsTest" classname="Tests.Feature.ProjectsTest" file="/Users/aliuwahab/LaravelProjects/birdboard/tests/Feature/ProjectsTest.php" line="97" assertions="2" time="0.051310"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
